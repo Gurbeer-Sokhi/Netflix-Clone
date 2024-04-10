@@ -14,22 +14,41 @@ from potential breaches.
 
 ## React
 We will use React as the front-end framework for the single page application.
+### Header for the Dashboard
+![](Readme_Images/header.png)
+### Movies Categories
+![](Readme_Images/Category.png)
 ## Firebase
 Firebase authentication will be used to authorize users for our website. It will 
 include login/signup by email id, Google, and Facebook.
+### Login Page
+![](Readme_Images/Login_Details.png)
 ## Socket.io
 We will use Socket.io to create a chat room for each movie where users can 
 communicate in real-time using the full-duplex communication that Socket.io allows.
-
+### Dedicated Chatroom for each Movie
+![](Readme_Images/Socket_Chatting.png)
 ## ML/Flask (Python)
 We will deploy Content-based Recommender Engine, which will 
 recommend user with the similar movies, based on genre. We will use flask framework to 
 deploy the Recommender Engine and create an API to fetch the list of the recommended 
 movies.
-## DigitalOcean
-We will deploy our project on digital ocean, using many of the resources 
-provided by the platform
+### Movie Recommendation based on Movie Category
+![](Readme_Images/Recommendation_Movies.png)
+### Flask API for Movie recommendation based on Comedy Category
+![](Readme_Images/Movie_Recommendation_Comedy_Genre.png)
 
+## AWS
+We will deploy our project on AWS, using many of the resources 
+provided by the platform like EC2 and S3 bucket.
+
+## Other Features
+### Ability for Users to comment
+![](Readme_Images/comments.png)
+### Ability for Users to Save Movies
+![](Readme_Images/Saved_List.png)
+### Movie Detail Page containing Movie Attributes
+![](Readme_Images/movie_detail_page.png)
 
 ## Welcome to guideline: how to run it locally!
 
